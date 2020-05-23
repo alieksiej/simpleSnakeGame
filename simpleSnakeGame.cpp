@@ -51,7 +51,7 @@ void Input()
 {
 	if (_Exit)
 	{
-		switch (mvgetch(x, y))
+		switch (getch())
 		{
 			case 'a':
 				dir = LEFT;
