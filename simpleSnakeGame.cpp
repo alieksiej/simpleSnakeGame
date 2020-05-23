@@ -1,5 +1,5 @@
 #include <iostream>
-#include <curses.h>
+#include <ncurses.h>
 using namespace std;
 bool gameOver;
 const int width = 20;
